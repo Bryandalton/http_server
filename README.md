@@ -1,38 +1,39 @@
-[![progress-banner](https://backend.codecrafters.io/progress/http-server/6574e666-2d2e-499e-b21e-96689a5fd391)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
+# Custom HTTP Server
 
-This is a starting point for JavaScript solutions to the
-["Build Your Own HTTP server" Challenge](https://app.codecrafters.io/courses/http-server/overview).
+## Description
 
-[HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) is the
-protocol that powers the web. In this challenge, you'll build a HTTP/1.1 server
-that is capable of serving multiple clients.
+This server uses Node.js native modules. I took on this project in part to learn more about the backend and server functionality and use cases. And, in part to use the infrastructure on other projects.
 
-Along the way you'll learn about TCP servers,
-[HTTP request syntax](https://www.w3.org/Protocols/rfc2616/rfc2616-sec5.html),
-and more.
+## Table of Contents
 
-**Note**: If you're viewing this repo on GitHub, head over to
-[codecrafters.io](https://codecrafters.io) to try the challenge.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-# Passing the first stage
+## Installation
 
-The entry point for your HTTP server implementation is in `app/main.js`. Study
-and uncomment the relevant code, and push your changes to pass the first stage:
+What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
-```sh
-git add .
-git commit -m "pass 1st stage" # any msg
-git push origin master
-```
+## Usage
 
-Time to move on to the next stage!
+Provide instructions and examples for use. Include screenshots as needed.
 
-# Stage 2 & beyond
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-Note: This section is for stages 2 and beyond.
+    ```md
+    ![alt text](assets/images/screenshot.png)
+    ```
 
-1. Ensure you have `node (21)` installed locally
-1. Run `./your_server.sh` to run your program, which is implemented in
-   `app/main.js`.
-1. Commit your changes and run `git push origin master` to submit your solution
-   to CodeCrafters. Test output will be streamed to your terminal.
+## Credits
+
+Bryan Dalton https://github.com/Bryandalton
+
+Tutorials:
+CodeCrafters Build your own HTTP Server
+
+## License
+
+MIT
+
+---
